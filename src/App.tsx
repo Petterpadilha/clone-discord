@@ -1,14 +1,15 @@
 import React from 'react'
-import GlobalStyles from './styles/GlobalStyles'
+import Layout from './components/Layout';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
 
     <>
-    <h1>rockenseat</h1>
-    <GlobalStyles/>
+    <Layout/>
+    <GlobalStyles />
     </>
-  )
+  );
 }
-
 export default App
+
