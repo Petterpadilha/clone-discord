@@ -18,5 +18,11 @@ export const Container = styled.div `
 
 export const Separator = styled.div `
     // Criando um separador da barra lateral 
+    width: 32px;
+    border-bottom: 2px solid var(--quaternary);
+    margin-bottom: 8px;
+    
+
+
 
 `;
